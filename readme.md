@@ -46,4 +46,7 @@ node.js, npm, gulpを前提としても良いですが、一先ず最低限Scss�
 
 ## Release
 
+- 2017/2/22 ver1.1.0
+    - キービジュアルのmobileSafari対策が不十分だったのを修正
+    - CDNのFontAwesomeとjQueryのバージョンを上げた
 - 2017/2/22 ver1.0.7 (内部的には7番目なので)
