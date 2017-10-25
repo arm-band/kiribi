@@ -20,7 +20,6 @@ function mobileSafariRequiem() {
 function pageTop() {
     var returnPageTop = $(".returnPageTop");
 
-	//下にスクロールしたらヘッダの高さを縮小させる
 	var startPos = 0;
 	$(window).on("scroll", function(){
 		var currentPos = $(this).scrollTop();
