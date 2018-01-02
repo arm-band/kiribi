@@ -1,4 +1,4 @@
-# My web template
+# ![Kiribi](https://github.com/arm-band/kiribi/blob/master/misc/img/kiribi.png)
 
 自分用の小規模Webサイト制作用テンプレートです。  
 主にデモやテストサイト用。
@@ -46,6 +46,23 @@ node.js, npm, gulpを前提としても良いですが、一先ず最低限Scss�
 
 ## Release
 
+- 2018/01/02 Ver 2.0.0
+    - 名前を付けました
+    - 各種微調整
+- 2017/12/22 ver.1.3.3
+    - Bootstrapキャンセラーに追記
+- 2017/12/05 ver.1.3.2
+    - Bootstrapキャンセラーに追記
+- 2017/11/16 ver.1.3.1
+    - Bootstrapでいつも気になる指定をキャンセルするscssを追加
+- 2017/10/18 ver.1.3.0
+    - キービジュアルのmobileSafari対策が不十分だったのを修正
+- 2017/10/18 ver.1.2.0
+    - onw-libの中に丸ゴシックの記述を追加
+- 2017/7/19 ver.1.1.2
+    - フッタの微修正（scssファイル）
+- 2017/7/6  ver1.1.1
+    - Font CDNのAwesomeを4.7.0にバージョンアップ
 - 2017/2/22 ver1.1.0
     - キービジュアルのmobileSafari対策が不十分だったのを修正
     - CDNのFontAwesomeとjQueryのバージョンを上げた
