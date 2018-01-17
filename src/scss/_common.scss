@@ -6,13 +6,15 @@
 //                                               *
 // ============================================= */
 @import "assets/bootstrap/bootstrap"; //bootstrap(3.3.7)
+@import "base/bootcanceller"; //Bootstrapのキャンセラー
 @import "base/var"; //変数
 @import "assets/snscolor"; //ソーシャルメディアなどのブランドカラー
-@import "assets/jugos"; //YuGochic用 //YuMinchoではfont-weight:500を指定しない限りは大丈夫
-@import "assets/jugosmin"; //YuGochic用省略形 //YuMinchoではfont-weight:500を指定しない限りは大丈夫
+@import "assets/cross-platform-yu-gothic"; //YuGochic用
+@import "assets/jugosmin"; //YuGochic用省略形
+@import "assets/jumincho"; //YuMinchoではfont-weight:500を指定しない限りは大丈夫
+@import "assets/marugo"; //丸ゴシック用
 @import "base/module"; //ベンダープレフィックス等のMixinモジュール
 @import "base/base"; //フォント指定やIE対処など
-@import "assets/navbar"; //ヘッダナビゲーションバーの設定。ハンバーガーメニューのアニメーションもここで。
 
 // ============================================= *
 //                                               *
@@ -32,6 +34,7 @@
 // ヘッダ                                         *
 //                                               *
 // ============================================= */
+@import "assets/navbar"; //ヘッダナビゲーションバーの設定。ハンバーガーメニューのアニメーションもここで。
 @import "common/header";
 
 // ============================================= *
@@ -39,9 +42,13 @@
 // メインコンテンツ                                 *
 //                                               *
 // ============================================= */
-main {
+.main {
 	background-color: $bg-color;
 	color: $color;
+    padding: {
+        left: 15px;
+        right: 15px;
+    }
 }
 
 // ============================================= *
